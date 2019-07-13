@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>世纪佳缘-我在这里等你思密达</title>
+</head>
+<body>
+  <table width="600" align="center" cellspacing="0" cellpadding="0">
+    <caption>
+      <h3>青春不常在，抓紧谈恋爱</h3>
+    </caption>
+    <!-- 性别 start -->
+    <tr >
+      <td>性别:</td>
+      <td>
+        <!-- 单选框 如果取名为相同的 name就可以单选了 -->
+        <input type="radio" name="sex" /> 男  <img src="images/man.jpg">  
+        <input type="radio" name="sex" checked/> 女   <img src="images/women.jpg"> 
+        <input type="radio" name="sex"/> 未知  ？
+      </td>
+    </tr>
+    <!-- 性别 end -->
+    <!-- 婚姻 start -->
+    <tr>
+      <td>婚姻状况:</td>
+      <td>
+        <!-- 单选框 如果取名为相同的 name就可以单选了 -->
+        <input type="radio" name="marry" checked="checked" /> 未婚  
+        <input type="radio" name="marry"/> 离婚  
+        <input type="radio" name="marry"/> 多婚
+      </td>
+
+    </tr>
+    <!-- 性别 end -->
+
+    <tr>
+      <td>用户名:</td>
+      <td>
+        <!-- 文本框 -->
+        <input type="text" value="请输入用户名..." name="username" />
+      </td>
+    </tr>
+    <tr>
+      <td>密码:</td>
+      <td>
+        <!-- 密码框 -->
+        <input type="password" name="mima"/>  请输入密码
+      </td>
+    </tr>
+    <!-- 生日 -->
+    <tr>
+      <td>生日:</td>
+      <td>
+         <select>
+            <option>--请选择年份--</option>
+            <option>1990</option>
+            <option>1991</option>
+            <option>1992</option>
+            <option>1993</option>
+            <option>1994</option>
+            <option>1999</option>
+         </select>
+          <select>
+            <option selected="selected">--请选择月份--</option>
+            <option>2月</option>
+            <option>3月</option>
+            <option>4月</option>
+            <option>5月</option>
+            <option>6月</option>
+         </select>
+          <select>
+            <option selected="selected">1日</option>
+            <option>2日</option>
+            <option>3日</option>
+            <option>4日</option>
+            <option>5日</option>
+            <option>6日</option>
+         </select>
+      </td>
+    </tr>
+    <!-- 喜欢的类型 -->
+    <tr>
+      <td>喜欢的类型:</td>
+      <td>
+        <!-- 复选框 -->
+        <input type="checkbox" name="like"/> 妩媚
+        <input type="checkbox" name="like"/> 可爱
+        <input type="checkbox" name="like" checked="checked" /> 小鲜肉
+      </td>
+    </tr>
+    <!-- 文件域 -->
+     <tr>
+      <td>上传头像</td>
+      <td>
+        <input type="file" />
+      </td>
+    </tr>
+    <!-- 按钮组 -->
+     <tr>
+      <td> 请您留言： </td>
+      <td>
+         <textarea rows="10" cols="40"> 请您留言 </textarea>
+      </td>
+    </tr>
+    <!-- 按钮组 -->
+     <tr>
+      <td> </td>
+      <td>
+         <input type="button" value="搜索按钮" />
+         <input type="submit"  value="提交所填" />
+         <input type="reset"  value="重置所填" />
+         <input type="image" src="images/btn.png" />
+      </td>
+    </tr>
+
+  </table>
+</body>
+</html>
